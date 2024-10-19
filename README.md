@@ -75,7 +75,7 @@ Using prefixes for branches helps categorize them by their function, enhancing c
 These prefixes are frequently used in projects to categorize branches clearly:
 
 - **`feature/`**   
-  For new features or enhancements  
+  For new features or enhancements  [ feature/ or feat/ ]  
   *examples:*   
   - `feature/user-authentication`
   - `feature/payment-integration`
@@ -84,41 +84,114 @@ These prefixes are frequently used in projects to categorize branches clearly:
 <br>
 
 - **`bugfix/`**    
-    For fixing bugs (e.g., `bugfix/header-overflow`)
+  For fixing bugs    [ bugfix/ or fix/ ]  
+  *examples:*   
+  - `bugfix/navbar-color-issue`
+  - `bugfix/cart-quantity-update`
+  - `bugfix/login-error-message`
+
+
+<br> 
 
 - **`hotfix/`**    
-  For urgent fixes, often in production (e.g., `hotfix/critical-bug-fix`)
+  For urgent fixes, often in production    
+  *examples:*   
+  - `hotfix/fix-crash-on-launch`
+  - `hotfix/urgent-payment-bug`
+  - `hotfix/critical-login-bug`
+
+
+<br> 
 
 - **`release/`**    
-    For preparing release versions (e.g., `release/v2.0`)
-  
+  For preparing release versions     
+  *examples:*  
+  - `release/v1.0.0`
+  - `release/v2.3.1-beta`
+  - `release/v3.0.0-final`
+
+
+ <br> 
+
 - **`chore/`**   
-  For small maintenance tasks, such as refactoring or updating dependencies (e.g., `chore/update-dependencies`)
+  For small maintenance tasks, such as refactoring or updating dependencies     
+  *examples:*  
+  - `chore/update-dependencies`
+  - `chore/cleanup-unused-code`
+  - `chore/upgrade-npm-packages`
+  - `chore/refactor-project-structure`
+
+<br> 
   
 - **`test/`**   
-    For adding or updating tests (e.g., `test/login-functionality`)
+    For adding or updating tests     
+  *examples:*  
+  - `test/add-user-auth-tests`
+  - `test/update-product-tests`
+  - `test/improve-checkout-test-coverage`
+  - `test/fix-login-page-tests`
+
+  
+<br> 
   
 - **`docs/`**   
-  For documentation updates (e.g., `docs/api-guide`)
+  For documentation updates     
+  *examples:*  
+  - `docs/update-api-docs`
+  - `docs/improve-readme`
+  - `docs/add-contributing-guidelines`
+  - `docs/architecture-overview`
+  
+<br> 
 
 #### Other Branch Prefixes  
 
 These prefixes are used less frequently but still serve important purposes:
 
 - **`refactor/`**   
-  For code refactoring without changing functionality (e.g., `refactor/cart-logic`)
+  For code refactoring without changing functionality     
+  *examples:*  
+  - `refactor/improve-code-structure`
+  - `refactor/optimize-query-performance`
+  - `refactor/cleanup-css-styles`
+  - `refactor/reorganize-component-files`
+  - `refactor/remove-deprecated-methods`
+
+<br> 
 
 - **`ci/`**    
-  For continuous integration or deployment-related changes (e.g., `ci/update-ci-config`)
+  For continuous integration or deployment-related changes    
+  *examples:* 
+  - `ci/setup-circleci`
+  - `ci/improve-ci-pipeline`
+  - `ci/fix-automated-tests`
+  - `ci/add-docker-support`
+  - `ci/update-github-actions`
+
+<br> 
 
 - **`style/`**     
-  For code style changes (e.g., `style/fix-indentation`)
+  For code style changes    
+  *examples:* 
+  - `style/fix-code-formatting`
+  - `style/improve-css-indentation`
+  - `style/update-linter-rules`
+  - `style/clean-up-html-structure`
+  - `style/refactor-component-styles`
   
+<br> 
+
 - **`perf/`**     
-  For performance improvements (e.g., `perf/improve-load-time`)
+  For performance improvements     
+  *examples:*  
+  - `perf/improve-load-time`
   
+<br> 
+
 - **`config/`**    
-    For configuration file changes (e.g., `config/update-webpack`)
+    For configuration file changes     
+  *examples:*  
+  - `config/update-webpack`
 
 
 <br>
@@ -131,76 +204,4 @@ For instance: `bugfix/proj-456-fix-user-login-issue`
 
 
 <br>
-
-## 1.4 Recommended Branch Name Styles
-
-#### Feature Branches
-- `feature/user-authentication`
-- `feature/shopping-cart`
-- `feature/profile-settings`
-- `feature/payment-integration`
-- `feature/blog-posts`
-
-#### Bugfix Branches
-- `bugfix/navbar-color-issue`
-- `bugfix/fix-product-image`
-- `bugfix/cart-quantity-update`
-- `bugfix/login-error-message`
-- `bugfix/checkout-button-functionality`
-
-#### Hotfix Branches
-- `hotfix/urgent-payment-bug`
-- `hotfix/fix-deployment-error`
-- `hotfix/security-vulnerability-patch`
-- `hotfix/critical-login-bug`
-- `hotfix/fix-crash-on-launch`
-
-#### Release Branches
-- `release/v1.0.0`
-- `release/v2.3.1`
-- `release/v3.0.0-final`
-- `release/v4.2.0-beta`
-- `release/v5.1.0`
-
-#### Chore Branches
-- `chore/update-dependencies`
-- `chore/cleanup-unused-code`
-- `chore/optimize-build-process`
-- `chore/upgrade-npm-packages`
-- `chore/refactor-project-structure`
-
-#### Test Branches
-- `test/add-user-auth-tests`
-- `test/update-product-tests`
-- `test/improve-checkout-test-coverage`
-- `test/fix-login-page-tests`
-- `test/refactor-testing-framework`
-
-#### Refactor Branches
-- `refactor/improve-code-structure`
-- `refactor/optimize-query-performance`
-- `refactor/cleanup-css-styles`
-- `refactor/reorganize-component-files`
-- `refactor/remove-deprecated-methods`
-
-#### Documentation Branches
-- `docs/update-api-docs`
-- `docs/improve-readme`
-- `docs/add-contributing-guidelines`
-- `docs/faq-section-update`
-- `docs/architecture-overview`
-
-#### Continuous Integration Branches
-- `ci/setup-circleci`
-- `ci/improve-ci-pipeline`
-- `ci/fix-automated-tests`
-- `ci/add-docker-support`
-- `ci/update-github-actions`
-
-#### Style Branches
-- `style/fix-code-formatting`
-- `style/improve-css-indentation`
-- `style/update-linter-rules`
-- `style/clean-up-html-structure`
-- `style/refactor-component-styles`
-
+<hr>
