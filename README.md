@@ -38,8 +38,6 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 
 ### 1.1 Fundamentals
 
-## Essential Guidelines
-
 - **Descriptive Names**  
   Use clear and specific names that show the branch's purpose right away. For example, choose `feature/shopping-cart` or `bugfix/header-overflow` instead of vague names.
 
@@ -55,6 +53,36 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 
 - **Short and Clear**  
   Keep branch names brief but descriptive enough to quickly convey their purpose.
+
+<br>
+
+#
+### 1.2 Understanding Branch Prefixes
+
+Using prefixes for branches helps categorize them by their function, enhancing clarity and facilitating automated processes. Here are some commonly used branch type prefixes:
+
+#### Most Common Branch Prefixes
+
+These prefixes are frequently used in projects to categorize branches clearly:
+
+- **`feature/`**: For new features or enhancements (e.g., `feature/shoppingCart`).
+- **`bugfix/`**: For fixing bugs (e.g., `bugfix/headerOverflow`).
+- **`hotfix/`**: For urgent fixes, often in production (e.g., `hotfix/criticalBugFix`).
+- **`release/`**: For preparing release versions (e.g., `release/v2.0`).
+- **`chore/`**: For small maintenance tasks, such as refactoring or updating dependencies (e.g., `chore/updateDependencies`).
+- **`test/`**: For adding or updating tests (e.g., `test/loginFunctionality`).
+- **`docs/`**: For documentation updates (e.g., `docs/api-guide`).
+
+#### Other Branch Prefixes  
+
+These prefixes are used less frequently but still serve important purposes:
+
+- **`refactor/`**: For code refactoring without changing functionality (e.g., `refactor/cartLogic`).
+- **`ci/`**: For continuous integration or deployment-related changes (e.g., `ci/updateCIConfig`).
+- **`style/`**: For code style changes (e.g., `style/fixIndentation`).
+- **`perf/`**: For performance improvements (e.g., `perf/improveLoadTime`).
+- **`config/`**: For configuration file changes (e.g., `config/updateWebpack`).
+
 
 
 ### Recommended Branch Name Styles
