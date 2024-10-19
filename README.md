@@ -2,11 +2,9 @@
 GitSafe: Best Practices for GitHub
 </h1>
 
-
 <br>
 
 Hey developers! Here are some quick tips to help you use Git better. You probably already know Git, the tool that keeps your code safe and makes collaboration easier. Have you ever created a branch and forgotten why? Or struggled to understand a commit from the file changes? If so, these tips are for you!
-
 
 
 ### Why follow Git standards?
@@ -34,16 +32,22 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 
 <br>
 
-## 1. Branch Naming Conventions
+<hr>
 
-### 1.1 Fundamentals
+# 1. Branch Naming Conventions
+
+## 1.1 Fundamentals
 
 - **Descriptive Names**  
   Use clear and specific names that show the branch's purpose right away. For example, choose `feature/shopping-cart` or `bugfix/header-overflow` instead of vague names.
 
 
 - **Use Hyphens**  
-  Separate words with hyphens (kebab case) for better readability. For instance, `bugfix/fix-login-issue` is easier to read than `bugfix/fixLoginIssue` or `bugfix/fix_login_issue`.
+  Separate words with hyphens (kebab case) for better readability. 
+  
+  For instance, 🗸 `bugfix/fix-login-issue` is easier to read than   
+  ⓧ `bugfix/fixLoginIssue` or   
+  ⓧ `bugfix/fix_login_issue`
 
 - **Lowercase Alphanumeric Characters**  
   Use only lowercase letters (a-z), numbers (0-9), and hyphens in branch names. Try to avoid punctuation, spaces, underscores, or special characters whenever possible.
@@ -54,10 +58,10 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 - **Short and Clear**  
   Keep branch names brief but descriptive enough to quickly convey their purpose.
 
+
 <br>
 
-#
-### 1.2 Understanding Branch Prefixes
+## 1.2 Understanding Branch Prefixes
 
 Using prefixes for branches helps categorize them by their function, enhancing clarity and facilitating automated processes. Here are some commonly used branch type prefixes:
 
@@ -65,13 +69,13 @@ Using prefixes for branches helps categorize them by their function, enhancing c
 
 These prefixes are frequently used in projects to categorize branches clearly:
 
-- **`feature/`**: For new features or enhancements (e.g., `feature/shoppingCart`).
-- **`bugfix/`**: For fixing bugs (e.g., `bugfix/headerOverflow`).
-- **`hotfix/`**: For urgent fixes, often in production (e.g., `hotfix/criticalBugFix`).
-- **`release/`**: For preparing release versions (e.g., `release/v2.0`).
-- **`chore/`**: For small maintenance tasks, such as refactoring or updating dependencies (e.g., `chore/updateDependencies`).
-- **`test/`**: For adding or updating tests (e.g., `test/loginFunctionality`).
-- **`docs/`**: For documentation updates (e.g., `docs/api-guide`).
+- **`feature/`**: For new features or enhancements (e.g., `feature/shoppingCart`)
+- **`bugfix/`**: For fixing bugs (e.g., `bugfix/headerOverflow`)
+- **`hotfix/`**: For urgent fixes, often in production (e.g., `hotfix/criticalBugFix`)
+- **`release/`**: For preparing release versions (e.g., `release/v2.0`)
+- **`chore/`**: For small maintenance tasks, such as refactoring or updating dependencies (e.g., `chore/updateDependencies`)
+- **`test/`**: For adding or updating tests (e.g., `test/loginFunctionality`)
+- **`docs/`**: For documentation updates (e.g., `docs/api-guide`)
 
 #### Other Branch Prefixes  
 
@@ -86,17 +90,16 @@ These prefixes are used less frequently but still serve important purposes:
 
 <br>
 
-#
-### 1.3 Incorporating Ticket Numbers
+## 1.3 Incorporating Ticket Numbers
 
 When your project utilizes an issue tracking tool such as Jira or GitHub Issues, it's helpful to add the issue identifier to the branch name for straightforward tracking.
 
 For instance: `bugfix/proj-456-fix-user-login-issue`
 
+
 <br>
 
-#
-### 1.4 Recommended Branch Name Styles
+## 1.4 Recommended Branch Name Styles
 
 #### Feature Branches
 - `feature/user-authentication`
@@ -167,6 +170,4 @@ For instance: `bugfix/proj-456-fix-user-login-issue`
 - `style/update-linter-rules`
 - `style/clean-up-html-structure`
 - `style/refactor-component-styles`
-
-
 
