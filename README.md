@@ -57,3 +57,77 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
   Keep branch names brief but descriptive enough to quickly convey their purpose.
 
 
+### Recommended Branch Name Styles
+
+#### Feature Branches
+- `feature/user-authentication`
+- `feature/shopping-cart`
+- `feature/profile-settings`
+- `feature/payment-integration`
+- `feature/blog-posts`
+
+#### Bugfix Branches
+- `bugfix/navbar-color-issue`
+- `bugfix/fix-product-image`
+- `bugfix/cart-quantity-update`
+- `bugfix/login-error-message`
+- `bugfix/checkout-button-functionality`
+
+#### Hotfix Branches
+- `hotfix/urgent-payment-bug`
+- `hotfix/fix-deployment-error`
+- `hotfix/security-vulnerability-patch`
+- `hotfix/critical-login-bug`
+- `hotfix/fix-crash-on-launch`
+
+#### Release Branches
+- `release/v1.0.0`
+- `release/v2.3.1`
+- `release/v3.0.0-final`
+- `release/v4.2.0-beta`
+- `release/v5.1.0`
+
+#### Chore Branches
+- `chore/update-dependencies`
+- `chore/cleanup-unused-code`
+- `chore/optimize-build-process`
+- `chore/upgrade-npm-packages`
+- `chore/refactor-project-structure`
+
+#### Test Branches
+- `test/add-user-auth-tests`
+- `test/update-product-tests`
+- `test/improve-checkout-test-coverage`
+- `test/fix-login-page-tests`
+- `test/refactor-testing-framework`
+
+#### Refactor Branches
+- `refactor/improve-code-structure`
+- `refactor/optimize-query-performance`
+- `refactor/cleanup-css-styles`
+- `refactor/reorganize-component-files`
+- `refactor/remove-deprecated-methods`
+
+#### Documentation Branches
+- `docs/update-api-docs`
+- `docs/improve-readme`
+- `docs/add-contributing-guidelines`
+- `docs/faq-section-update`
+- `docs/architecture-overview`
+
+#### Continuous Integration Branches
+- `ci/setup-circleci`
+- `ci/improve-ci-pipeline`
+- `ci/fix-automated-tests`
+- `ci/add-docker-support`
+- `ci/update-github-actions`
+
+#### Style Branches
+- `style/fix-code-formatting`
+- `style/improve-css-indentation`
+- `style/update-linter-rules`
+- `style/clean-up-html-structure`
+- `style/refactor-component-styles`
+
+
+
