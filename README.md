@@ -9,30 +9,28 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 
 ### Why follow Git standards?
 
-- **Improves Clarity**  
-  Organized code is easier to read and understand.
+- **Improves Clarity**: Organized code is easier to read.
+- **Enhances Team Collaboration**: Consistent guidelines facilitate teamwork.
+- **Simplifies Project Structure**: Aids in quickly locating files and understanding setups.
+- **Better Documentation**: Clearly tracks changes for easier contributions.
+- **Boosts Code Quality**: Consistency results in cleaner code.
+- **Automatic Changelogs**: Standards help generate changelogs automatically.
+- **Streamlines CI/CD**: Improves efficiency in continuous integration and deployment processes.
 
-- **Enhances Team Collaboration**  
-  When everyone follows the same guidelines, it makes working together easier.
+<br>
 
-- **Simplifies Project Structure**  
-  Helps you quickly find files and understand the project setup.
 
-- **Better Documentation**  
-  Tracks changes clearly, making it easy for others to follow and contribute.
 
-- **Boosts Code Quality**  
-  Consistent practices lead to cleaner, higher-quality code.
+# Contents
 
-- **Automatic Changelogs**  
-  Following standards helps generate changelogs without manual effort.
-
-- **Streamlines CI/CD**  
-  Makes your continuous integration (CI) and deployment (CD) processes more efficient.
+1. [Branch Naming Conventions ->](#1-branch-naming-conventions)
 
 <br>
 
 <hr>
+
+<br>
+
 
 # 1. Branch Naming Conventions
 
@@ -204,4 +202,10 @@ For instance: `bugfix/proj-456-fix-user-login-issue`
 
 
 <br>
+
+<hr>
+<div align="center">
+
+<kbd>[&nbsp; ⮝ &nbsp;  BACK TO TOP  &nbsp;&nbsp;&nbsp;](#contents) </kbd>
+</div>
 <hr>
