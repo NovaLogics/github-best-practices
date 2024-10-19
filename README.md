@@ -69,23 +69,45 @@ Using prefixes for branches helps categorize them by their function, enhancing c
 
 These prefixes are frequently used in projects to categorize branches clearly:
 
-- **`feature/`**: For new features or enhancements (e.g., `feature/shoppingCart`)
-- **`bugfix/`**: For fixing bugs (e.g., `bugfix/headerOverflow`)
-- **`hotfix/`**: For urgent fixes, often in production (e.g., `hotfix/criticalBugFix`)
-- **`release/`**: For preparing release versions (e.g., `release/v2.0`)
-- **`chore/`**: For small maintenance tasks, such as refactoring or updating dependencies (e.g., `chore/updateDependencies`)
-- **`test/`**: For adding or updating tests (e.g., `test/loginFunctionality`)
-- **`docs/`**: For documentation updates (e.g., `docs/api-guide`)
+- **`feature/`**:  
+  For new features or enhancements (e.g., `feature/shopping-cart`)
+
+- **`bugfix/`**:  
+    For fixing bugs (e.g., `bugfix/header-overflow`)
+
+- **`hotfix/`**:  
+  For urgent fixes, often in production (e.g., `hotfix/critical-bug-fix`)
+
+- **`release/`**:  
+    For preparing release versions (e.g., `release/v2.0`)
+  
+- **`chore/`**:  
+  For small maintenance tasks, such as refactoring or updating dependencies (e.g., `chore/update-dependencies`)
+  
+- **`test/`**:  
+    For adding or updating tests (e.g., `test/login-functionality`)
+  
+- **`docs/`**:  
+  For documentation updates (e.g., `docs/api-guide`)
 
 #### Other Branch Prefixes  
 
 These prefixes are used less frequently but still serve important purposes:
 
-- **`refactor/`**: For code refactoring without changing functionality (e.g., `refactor/cartLogic`).
-- **`ci/`**: For continuous integration or deployment-related changes (e.g., `ci/updateCIConfig`).
-- **`style/`**: For code style changes (e.g., `style/fixIndentation`).
-- **`perf/`**: For performance improvements (e.g., `perf/improveLoadTime`).
-- **`config/`**: For configuration file changes (e.g., `config/updateWebpack`).
+- **`refactor/`**:  
+  For code refactoring without changing functionality (e.g., `refactor/cart-logic`)
+
+- **`ci/`**:  
+  For continuous integration or deployment-related changes (e.g., `ci/update-ci-config`)
+
+- **`style/`**:   
+  For code style changes (e.g., `style/fix-indentation`)
+  
+- **`perf/`**:   
+  For performance improvements (e.g., `perf/improve-load-time`)
+  
+- **`config/`**:   
+    For configuration file changes (e.g., `config/update-webpack`)
 
 
 <br>
