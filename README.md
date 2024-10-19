@@ -146,7 +146,7 @@ These prefixes are frequently used in projects to categorize branches clearly:
 
 These prefixes are used less frequently but still serve important purposes:
 
-- **`refactor/`**   
+- **refactor/**   
   For code refactoring without changing functionality     
   *examples:*  
   - `refactor/improve-code-structure`
@@ -157,7 +157,7 @@ These prefixes are used less frequently but still serve important purposes:
 
 <br> 
 
-- **`ci/`**    
+- **ci/**    
   For continuous integration or deployment-related changes    
   *examples:* 
   - `ci/setup-circleci`
@@ -168,7 +168,7 @@ These prefixes are used less frequently but still serve important purposes:
 
 <br> 
 
-- **`style/`**     
+- **style/**     
   For code style changes    
   *examples:* 
   - `style/fix-code-formatting`
@@ -179,14 +179,14 @@ These prefixes are used less frequently but still serve important purposes:
   
 <br> 
 
-- **`perf/`**     
+- **perf/**     
   For performance improvements     
   *examples:*  
   - `perf/improve-load-time`
   
 <br> 
 
-- **`config/`**    
+- **config/**    
     For configuration file changes     
   *examples:*  
   - `config/update-webpack`
