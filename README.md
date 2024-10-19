@@ -64,6 +64,7 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 
 <br>
 
+
 ## 1.2 Understanding Branch Prefixes
 
 Using prefixes for branches helps categorize them by their function, enhancing clarity and facilitating automated processes. Here are some commonly used branch type prefixes:
@@ -72,8 +73,8 @@ Using prefixes for branches helps categorize them by their function, enhancing c
 
 These prefixes are frequently used in projects to categorize branches clearly:
 
-- **`feature/`**   
-  For new features or enhancements  [ feature/ or feat/ ]  
+- **feature/**   
+  For new features or enhancements  [ `feature/` or `feat/` ]  
   *examples:*   
   - `feature/user-authentication`
   - `feature/payment-integration`
@@ -81,37 +82,34 @@ These prefixes are frequently used in projects to categorize branches clearly:
 
 <br>
 
-- **`bugfix/`**    
-  For fixing bugs    [ bugfix/ or fix/ ]  
+- **bugfix/**    
+  For fixing bugs    [ `bugfix/ `or `fix/` ]  
   *examples:*   
   - `bugfix/navbar-color-issue`
   - `bugfix/cart-quantity-update`
   - `bugfix/login-error-message`
 
-
 <br> 
 
-- **`hotfix/`**    
+- **hotfix/**    
   For urgent fixes, often in production    
   *examples:*   
   - `hotfix/fix-crash-on-launch`
   - `hotfix/urgent-payment-bug`
   - `hotfix/critical-login-bug`
 
-
 <br> 
 
-- **`release/`**    
+- **release/**    
   For preparing release versions     
   *examples:*  
   - `release/v1.0.0`
   - `release/v2.3.1-beta`
   - `release/v3.0.0-final`
 
-
  <br> 
 
-- **`chore/`**   
+- **chore/**   
   For small maintenance tasks, such as refactoring or updating dependencies     
   *examples:*  
   - `chore/update-dependencies`
@@ -121,7 +119,7 @@ These prefixes are frequently used in projects to categorize branches clearly:
 
 <br> 
   
-- **`test/`**   
+- **test/**   
     For adding or updating tests     
   *examples:*  
   - `test/add-user-auth-tests`
@@ -129,10 +127,9 @@ These prefixes are frequently used in projects to categorize branches clearly:
   - `test/improve-checkout-test-coverage`
   - `test/fix-login-page-tests`
 
-  
 <br> 
   
-- **`docs/`**   
+- **docs/**   
   For documentation updates     
   *examples:*  
   - `docs/update-api-docs`
@@ -142,28 +139,22 @@ These prefixes are frequently used in projects to categorize branches clearly:
   
 <br> 
 
-#### Other Branch Prefixes  
-
-These prefixes are used less frequently but still serve important purposes:
-
 - **refactor/**   
   For code refactoring without changing functionality     
   *examples:*  
   - `refactor/improve-code-structure`
   - `refactor/optimize-query-performance`
   - `refactor/cleanup-css-styles`
-  - `refactor/reorganize-component-files`
   - `refactor/remove-deprecated-methods`
 
 <br> 
 
 - **ci/**    
-  For continuous integration or deployment-related changes    
+  For *Continuous Integration or Deployment* related changes    
   *examples:* 
-  - `ci/setup-circleci`
+  - `ci/add-docker-support`
   - `ci/improve-ci-pipeline`
   - `ci/fix-automated-tests`
-  - `ci/add-docker-support`
   - `ci/update-github-actions`
 
 <br> 
@@ -171,7 +162,6 @@ These prefixes are used less frequently but still serve important purposes:
 - **style/**     
   For code style changes    
   *examples:* 
-  - `style/fix-code-formatting`
   - `style/improve-css-indentation`
   - `style/update-linter-rules`
   - `style/clean-up-html-structure`
@@ -191,8 +181,8 @@ These prefixes are used less frequently but still serve important purposes:
   *examples:*  
   - `config/update-webpack`
 
-
 <br>
+
 
 ## 1.3 Incorporating Ticket Numbers
 
