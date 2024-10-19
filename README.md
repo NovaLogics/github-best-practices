@@ -84,8 +84,19 @@ These prefixes are used less frequently but still serve important purposes:
 - **`config/`**: For configuration file changes (e.g., `config/updateWebpack`).
 
 
+<br>
 
-### Recommended Branch Name Styles
+#
+### 1.3 Incorporating Ticket Numbers
+
+When your project utilizes an issue tracking tool such as Jira or GitHub Issues, it's helpful to add the issue identifier to the branch name for straightforward tracking.
+
+For instance: `bugfix/proj-456-fix-user-login-issue`
+
+<br>
+
+#
+### 1.4 Recommended Branch Name Styles
 
 #### Feature Branches
 - `feature/user-authentication`
