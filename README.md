@@ -50,10 +50,15 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
   ⓧ `bugfix/fix_login_issue`
 
 - **Lowercase Alphanumeric Characters**  
-  Use only lowercase letters (a-z), numbers (0-9), and hyphens in branch names. Try to avoid punctuation, spaces, underscores, or special characters whenever possible.
+  Use only  
+  🗸 lowercase letters ( a-z ),  
+  🗸 numbers ( 0-9 ),  
+  🗸 hyphens ( - )  
+  in branch names.  
+  Try to avoid punctuation, spaces, underscores, or special characters whenever possible.
 
 - **Avoid Unnecessary Hyphens**   
-  Don’t add extra or trailing hyphens, like in `feat/new—cart-`.
+  Don’t add extra or trailing hyphens, like in `feat/new—cart-`
 
 - **Short and Clear**  
   Keep branch names brief but descriptive enough to quickly convey their purpose.
@@ -69,44 +74,50 @@ Using prefixes for branches helps categorize them by their function, enhancing c
 
 These prefixes are frequently used in projects to categorize branches clearly:
 
-- **`feature/`**:  
-  For new features or enhancements (e.g., `feature/shopping-cart`)
+- **`feature/`**   
+  For new features or enhancements  
+  *examples:*   
+  - `feature/user-authentication`
+  - `feature/payment-integration`
+  - `feature/blog-posts`
 
-- **`bugfix/`**:  
+<br>
+
+- **`bugfix/`**    
     For fixing bugs (e.g., `bugfix/header-overflow`)
 
-- **`hotfix/`**:  
+- **`hotfix/`**    
   For urgent fixes, often in production (e.g., `hotfix/critical-bug-fix`)
 
-- **`release/`**:  
+- **`release/`**    
     For preparing release versions (e.g., `release/v2.0`)
   
-- **`chore/`**:  
+- **`chore/`**   
   For small maintenance tasks, such as refactoring or updating dependencies (e.g., `chore/update-dependencies`)
   
-- **`test/`**:  
+- **`test/`**   
     For adding or updating tests (e.g., `test/login-functionality`)
   
-- **`docs/`**:  
+- **`docs/`**   
   For documentation updates (e.g., `docs/api-guide`)
 
 #### Other Branch Prefixes  
 
 These prefixes are used less frequently but still serve important purposes:
 
-- **`refactor/`**:  
+- **`refactor/`**   
   For code refactoring without changing functionality (e.g., `refactor/cart-logic`)
 
-- **`ci/`**:  
+- **`ci/`**    
   For continuous integration or deployment-related changes (e.g., `ci/update-ci-config`)
 
-- **`style/`**:   
+- **`style/`**     
   For code style changes (e.g., `style/fix-indentation`)
   
-- **`perf/`**:   
+- **`perf/`**     
   For performance improvements (e.g., `perf/improve-load-time`)
   
-- **`config/`**:   
+- **`config/`**    
     For configuration file changes (e.g., `config/update-webpack`)
 
 
