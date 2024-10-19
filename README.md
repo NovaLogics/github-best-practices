@@ -199,3 +199,14 @@ For instance: `bugfix/proj-456-fix-user-login-issue`
 <kbd>[&nbsp; ⮝ &nbsp;  BACK TO TOP  &nbsp;&nbsp;&nbsp;](#contents) </kbd>
 </div>
 <hr>
+
+
+# 2. Commit Message Conventions
+
+Overall format for a commit message:
+
+```md
+<type>([optional scope]): <description> # subject
+[optional body]
+[optional footer(s)]
+```
