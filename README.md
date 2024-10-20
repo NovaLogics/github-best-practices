@@ -374,4 +374,16 @@ The scope provides additional context about which part of the code was modified.
   Reviewed-by: Alice <alice@example.com>
   ```
 
-  
+<br>
+
+## 2.7  Why Use Conventional Commits
+
+`Commit Messages` are general descriptions of changes made in a commit, often inconsistent due to a lack of rules. In contrast, `Conventional Commits` provide a standardized format (e.g., <type>([scope]): <description>) that enhances automation, clarity, and consistency in commit messaging.
+
+Following the **Conventional Commits** specification ensures a clear and consistent commit history, which makes it easier to:
+
+- **Automatically Generate Changelogs**: Tools can generate changelogs based on commit messages.
+- **Semantic Versioning**: Determine version bumps based on the type of changes (patch, minor, or major).
+- **Communicate Changes Clearly**: Teams and contributors can understand the nature of changes from the commit history.
+- **Automate Processes**: Trigger builds, tests, and deployments based on the type of commits.
+- **Encourage Collaboration**: Commit standards make it easier for new contributors to understand and participate in the project.
