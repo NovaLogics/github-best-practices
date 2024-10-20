@@ -326,11 +326,23 @@ The scope provides additional context about which part of the code was modified.
   *Example:*
   - `feat(ui): Improve button design`
   - `feat(api): Add new user endpoint`
+
+ <br>
+
+## 2.5 Message Body Guidelines
   
-- **Message Body**: Add more details about the change in the body if needed.
-  - Leave one blank line between the subject and the body.
-  - Keep each line in the body under 72 characters.
+- Leave a blank line between the subject and the body.
+- Use the body for detailed explanations, especially for complex changes.
+- Keep each line in the body under 72 characters.
+- If necessary, use multiple paragraphs to explain what, why, and how changes were made.  
   
+  *Example:*
+
+  ```scss
+  fix(auth): Fix token validation error
+
+  This commit corrects the logic for token validation, ensuring that expired tokens are properly rejected. This improves security by preventing unauthorized access.
+  ```
 ---
 
 ## Footer and Extra Information:
