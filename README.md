@@ -257,67 +257,25 @@ Add a type before the subject to show what kind of change it is.
 **Common types are**:
 
 - **feat** : Introduces a new feature to the codebase   
-  *Example:*  
-  - `feat(auth): Add password recovery option`
-  - `feat(ui): Add dark mode support`
+  *Example:*   `feat(auth): Add password recovery option`
 
 <br>
 
 - **fix** : Fixes a bug    
-  *Example:*
-  - `fix(cart): Correct item count calculation`
-  - `fix(user-profile): Resolve issue with profile image upload`
+  *Example:* `fix(cart): Correct item count calculation`
 
 <br>
 
 **Other Types**:
 - **build** : Changes related to build tools or dependencies.
-  - `build(webpack): Upgrade webpack to version 5 for faster builds`
-<br>
-
 - **chore** : Routine tasks or changes that do not affect production code.
-  - `chore(deps): Update project dependencies to latest versions`
-  
-<br>
-
 - **ci** : Changes related to continuous integration configurations.
-  - `ci(actions): Update CI workflow for test coverage reporting`
-  
-<br>
-
 - **docs** : Documentation changes.
-  - `docs(contributing): Clarify contribution guidelines` 
-  
-<br>
-
 - **style** : Code style changes (e.g., formatting, no functional changes).
-  - `style(button): Improve button alignment and spacing`
-  
-<br>
-
 - **refactor** : Code restructuring without changing behavior.
-  - `refactor(nav): Simplify navigation logic and remove unused code`
-  
-<br>
-
 - **perf** : Performance improvements.
-   - `perf(images): Optimize image loading for faster page rendering` 
-
-<br>
-
 - **test** : Adding or modifying tests.
-  - `test(api): Add unit tests for user authentication`
-  
-<br>
-
 - **config** : Configuration changes.
-  - `config(linter): Add new ESLint rules for better code consistency`
-  
-- **hotfix**:
-   - `hotfix(payment): Fix crash in payment gateway integration`
-
-- **release**:
-   - `release(v2.1.0): Prepare release notes for version 2.1.0`
 
 <br>
 
@@ -327,7 +285,36 @@ The scope provides additional context about which part of the code was modified.
   - `feat(ui): Improve button design`
   - `feat(api): Add new user endpoint`
 
- <br>
+<br>
+
+### Examples : Type + Scope + Description
+
+1. **feature** &nbsp; : &nbsp; `feat(ui): Add dark mode support`
+
+2. **bugfix** &nbsp; &nbsp; : &nbsp;  `fix(user-profile): Resolve issue with profile image upload`
+
+3. **hotfix** &nbsp; &nbsp; : &nbsp;  `hotfix(payment): Fix crash in payment gateway integration`
+
+4. **release** &nbsp; : &nbsp;  `release(v2.1.0): Prepare release notes for version 2.1.0`
+
+5. **chore** &nbsp; &nbsp; : &nbsp; &nbsp; `chore(deps): Update project dependencies to latest versions`
+
+6. **test** &nbsp; &nbsp; : &emsp; `test(api): Add unit tests for user authentication`
+
+7. **docs** &nbsp; &nbsp; : &nbsp; &nbsp;  `docs(contributing): Clarify contribution guidelines`
+
+8. **refactor** : &nbsp;  `refactor(nav): Simplify navigation logic and remove unused code`
+
+9.  **ci** &emsp; &emsp; : &emsp; `ci(actions): Update CI workflow for test coverage reporting`
+
+10. **style** &nbsp; &nbsp; : &emsp; `style(button): Improve button alignment and spacing`
+
+11. **perf** &nbsp; &nbsp; : &emsp; `perf(images): Optimize image loading for faster page rendering`
+
+12. **config** &nbsp; : &nbsp;   `config(linter): Add new ESLint rules for better code consistency`
+
+<br>
+
 
 ## 2.5 Message Body Guidelines
   
