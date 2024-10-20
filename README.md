@@ -387,12 +387,18 @@ In software development, everyone wants to write perfect code. But mistakes can 
 ## Why Use Pull Requests?
 Pull requests allow team members to check each other’s code. This way, the responsibility for catching mistakes doesn’t fall only on the original developer. Having another person review the code helps make sure it meets quality standards.
 
+<br>
 
 ## How Pull Requests Work
-1. Create a Branch: Developers start by creating a separate branch for their changes, keeping their work separate from the main code.
 
-2. Make Changes: They make their changes in this branch without affecting the main project.
+1. **Create a Branch**  
+   Developers start by creating a separate branch for their changes, keeping their work separate from the main code.
 
-3. Submit a Pull Request: Once they’re done, they submit a pull request to merge their changes into the main branch.
+2. **Make Changes**  
+   They make their changes in this branch without affecting the main project.
 
-4. Review and Approval: Another team member must review and approve the pull request before it can be merged. This step ensures quality and shares knowledge.
+3. **Submit a Pull Request**  
+   Once they’re done, they submit a pull request to merge their changes into the main branch.
+
+4. **Review and Approval**  
+   Another team member must review and approve the pull request before it can be merged. This step ensures quality and shares knowledge.
