@@ -25,6 +25,7 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 
 1. [Branch Naming Conventions ->](#1-branch-naming-conventions)
 2. [Commit Message Guidelines & Conventional Commits ->](#2-commit-message-guidelines--conventional-commits)
+3. [Enabling Pull Requests for Code Review](#3-enabling-pull-requests-for-code-review)
 
 <br>
 
@@ -413,3 +414,18 @@ Pull requests allow team members to check each other’s code. This way, the res
 
 - **Good Example**  
   Requiring pull requests for all code changes encourages teamwork and helps improve code quality.
+
+
+  
+<br>
+
+<hr>
+<div align="center">
+
+<kbd>[&nbsp; ⮝ &nbsp;  BACK TO TOP  &nbsp;&nbsp;&nbsp;](#contents) </kbd>
+</div>
+<hr>
+
+<br>
+
+<br>
