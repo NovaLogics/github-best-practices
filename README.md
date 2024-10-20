@@ -343,17 +343,35 @@ The scope provides additional context about which part of the code was modified.
 
   This commit corrects the logic for token validation, ensuring that expired tokens are properly rejected. This improves security by preventing unauthorized access.
   ```
----
 
-## Footer and Extra Information:
-- **Footer**: Include more information, such as who reviewed the code.  
-  Example: `Reviewed-by: Bob <bob@example.com>`
+<br>
 
-- **Breaking Changes**: Use “BREAKING CHANGE” when the commit introduces a major change that could break something.  
-  Example: `build!: migrate to webpack 5`  
-  Or, explain in the footer:  
-  `BREAKING CHANGE: Drop support for webpack 4 configurations.`
+## 2.6 Footer and Breaking Changes
 
-- **Multi-Paragraph Body**: For complex commits, you can use more than one paragraph to explain what, why, and how changes were made.
+- **Footer** :  
+  Used for additional information, like reviewers or references.  
+  *Example :* `Reviewed-by: Bob <bob@example.com>`
 
----
+- **Breaking Changes** :   
+  Use the keyword "BREAKING CHANGE" if the commit introduces a significant change that may break backward compatibility. Breaking changes can be indicated:
+  - In the subject by adding a `!` after the type/scope:
+    - *Example :* `feat!: remove deprecated API methods`
+  - In the footer:
+    - *Example :*  `BREAKING CHANGE: Removed deprecated API methods`
+
+<br>
+
+*Full Example :*
+
+  ```sql
+  feat(auth)!: update user authentication method
+
+  This commit changes the user authentication flow to enhance security by requiring multi-factor authentication.
+
+  BREAKING CHANGE: The old session handling methods are removed.
+  Update any references to the previous API.
+
+  Reviewed-by: Alice <alice@example.com>
+  ```
+
+  
