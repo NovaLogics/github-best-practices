@@ -218,8 +218,6 @@ A well-structured commit message is made up of the following elements:
 - `[optional body]` - Extra details about the changes (if needed)
 - `[optional footer]` - Additional information (if needed)
 
-<br>
-
 #
 
 - **Type**: Indicates the kind of change made.
@@ -328,7 +326,9 @@ The scope provides additional context about which part of the code was modified.
   ```scss
   fix(auth): Fix token validation error
 
-  This commit corrects the logic for token validation, ensuring that expired tokens are properly rejected. This improves security by preventing unauthorized access.
+  This commit corrects the logic for token validation, ensuring that 
+  expired tokens are properly rejected. This improves security by 
+  preventing unauthorized access.
   ```
 
 <br>
@@ -353,7 +353,8 @@ The scope provides additional context about which part of the code was modified.
   ```sql
   feat(auth)!: update user authentication method
 
-  This commit changes the user authentication flow to enhance security by requiring multi-factor authentication.
+  This commit changes the user authentication flow to enhance security by 
+  requiring multi-factor authentication.
 
   BREAKING CHANGE: The old session handling methods are removed.
   Update any references to the previous API.
