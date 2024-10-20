@@ -321,8 +321,11 @@ Add a type before the subject to show what kind of change it is.
 
 <br>
 
-- **Scope (Optional)**: You can add extra information inside parentheses to explain where the change happened.  
-  Example: `feat(ui): Improve button design`
+## 2.4 Scope (Optional)
+The scope provides additional context about which part of the code was modified. It should be placed in parentheses after the type.  
+  *Example:*
+  - `feat(ui): Improve button design`
+  - `feat(api): Add new user endpoint`
   
 - **Message Body**: Add more details about the change in the body if needed.
   - Leave one blank line between the subject and the body.
