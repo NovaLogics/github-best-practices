@@ -231,17 +231,25 @@ A well-structured commit message is made up of the following elements:
 <br>
 
 
-## 2.2 Message Subject:
+## 2.2 Message Subject Guidelines
+
 - **Use Command Form**  
   Write the message like a command. Begin with an action word (verb). 
 
-  Example: Use "fix: Resolve login issue" instead of "fix: Resolved login issue."
+  *Example:*  
+  Use `fix: Resolve login issue`  🗸  
+  instead of `fix: Resolved login issue` ⓧ
   
-- **Keep It Short**: Limit the subject line to 50 characters. This helps make the message easy to read in tools like `git log --oneline`. Avoid adding unnecessary words or symbols, and don’t end with a period.
+- **Keep It Short**  
+  Limit the subject line to 50 characters.  
+  This helps make the message easy to read in tools like `git log --oneline`. Avoid adding unnecessary words or symbols, and don’t end with a period.
   
-- **Start with a Capital Letter**: The first word of the subject should always be capitalized.
+- **Start with a Capital Letter**  
+  The first word of the subject should always be capitalized.
 
----
+
+<br>
+
 
 ## Type and Message Body:
 - **Type**: Add a type before the subject to show what kind of change it is. Common types are:
