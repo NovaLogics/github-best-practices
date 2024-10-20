@@ -25,7 +25,8 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 
 1. [Branch Naming Conventions ->](#1-branch-naming-conventions)
 2. [Commit Message Guidelines & Conventional Commits ->](#2-commit-message-guidelines--conventional-commits)
-3. [Enabling Pull Requests for Code Review](#3-enabling-pull-requests-for-code-review)
+3. [Enabling Pull Requests for Code Review ->](#3-enabling-pull-requests-for-code-review)
+4. [Best Practices for Naming Your Git Repository ->](#4-best-practices-for-naming-your-git-repository)
 
 <br>
 
@@ -503,3 +504,16 @@ Here are ten best practices to follow, along with examples:
 
 
 By following these best practices, you can ensure your Git repositories are well-organized, easy to work with, and user-friendly.
+
+<br>
+
+<hr>
+<div align="center">
+
+<kbd>[&nbsp; ⮝ &nbsp;  BACK TO TOP  &nbsp;&nbsp;&nbsp;](#contents) </kbd>
+</div>
+<hr>
+
+<br>
+
+<br>
