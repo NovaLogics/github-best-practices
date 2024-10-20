@@ -27,6 +27,7 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 2. [Commit Message Guidelines & Conventional Commits ->](#2-commit-message-guidelines--conventional-commits)
 3. [Enabling Pull Requests for Code Review ->](#3-enabling-pull-requests-for-code-review)
 4. [Best Practices for Naming Your Git Repository ->](#4-best-practices-for-naming-your-git-repository)
+5. [Why GitHub Descriptions Matter ->](#5-why-github-descriptions-matter)
 
 <br>
 
@@ -545,3 +546,17 @@ Here’s why:
   Description: `A tool for analyzing and visualizing sales data.`
 
 By adding a clear and concise description, you enhance the visibility and professionalism of your GitHub repositories.
+
+<br>
+
+<hr>
+<div align="center">
+
+<kbd>[&nbsp; ⮝ &nbsp;  BACK TO TOP  &nbsp;&nbsp;&nbsp;](#contents) </kbd>
+</div>
+<hr>
+
+<br>
+
+<br>
+
