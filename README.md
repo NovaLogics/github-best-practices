@@ -24,7 +24,7 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 # Contents
 
 1. [Branch Naming Conventions ->](#1-branch-naming-conventions)
-2. [Commit Message Conventions ->](#2-commit-message-conventions)
+2. [Commit Message Guidelines & Conventional Commits ->](#2-commit-message-guidelines--conventional-commits)
 
 <br>
 
@@ -205,21 +205,36 @@ For instance: `bugfix/proj-456-fix-user-login-issue`
 
 <br>
 
-# 2. Commit Message Conventions
+# 2. Commit Message Guidelines & Conventional Commits
 
+This document provides a set of rules and best practices for writing clear, structured commit messages. 
+It is based on the **Conventional Commits** specification, which aligns with **Semantic Versioning (SemVer)** and helps maintain an easy to follow commit history.
 
 ## 2.1 Structure of a Commit Message
 
-- `<type>([optional scope]): <short description>` - This is the subject.
-- `[optional body]` - Extra details about the changes (if needed).
-- `[optional footer]` - Additional information (if needed).
+A well-structured commit message is made up of the following elements:
 
+- `<type>([optional scope]): <short description>` - This is the subject
+- `[optional body]` - Extra details about the changes (if needed)
+- `[optional footer]` - Additional information (if needed)
+
+<br>
+
+#
+
+- **Type**: Indicates the kind of change made.
+- **Scope (Optional)**: Adds extra context about which part of the project was affected.
+- **Description**: A brief explanation of what was changed (start with a capital letter).
+- **Body (Optional)**: Detailed information, if necessary. Leave a blank line between the description and body.
+- **Footer (Optional)**: Additional information such as breaking changes or who reviewed the code.
 
 <br>
 
 
-## Message Subject:
-- **Use Command Form**: Write the message like a command. Begin with an action word (verb).  
+## 2.2 Message Subject:
+- **Use Command Form**  
+  Write the message like a command. Begin with an action word (verb). 
+
   Example: Use "fix: Resolve login issue" instead of "fix: Resolved login issue."
   
 - **Keep It Short**: Limit the subject line to 50 characters. This helps make the message easy to read in tools like `git log --oneline`. Avoid adding unnecessary words or symbols, and don’t end with a period.
