@@ -24,6 +24,7 @@ Hey developers! Here are some quick tips to help you use Git better. You probabl
 # Contents
 
 1. [Branch Naming Conventions ->](#1-branch-naming-conventions)
+2. [Commit Message Conventions ->](#2-commit-message-conventions)
 
 <br>
 
@@ -200,13 +201,57 @@ For instance: `bugfix/proj-456-fix-user-login-issue`
 </div>
 <hr>
 
+<br>
+
+<br>
 
 # 2. Commit Message Conventions
 
-Overall format for a commit message:
 
-```md
-<type>([optional scope]): <description> # subject
-[optional body]
-[optional footer(s)]
-```
+## 2.1 Structure of a Commit Message
+
+- `<type>([optional scope]): <short description>` - This is the subject.
+- `[optional body]` - Extra details about the changes (if needed).
+- `[optional footer]` - Additional information (if needed).
+
+
+<br>
+
+
+## Message Subject:
+- **Use Command Form**: Write the message like a command. Begin with an action word (verb).  
+  Example: Use "fix: Resolve login issue" instead of "fix: Resolved login issue."
+  
+- **Keep It Short**: Limit the subject line to 50 characters. This helps make the message easy to read in tools like `git log --oneline`. Avoid adding unnecessary words or symbols, and don’t end with a period.
+  
+- **Start with a Capital Letter**: The first word of the subject should always be capitalized.
+
+---
+
+## Type and Message Body:
+- **Type**: Add a type before the subject to show what kind of change it is. Common types are:
+  - `feat:` - For a new feature.
+  - `fix:` - For fixing something.
+  - Others: `build:`, `chore:`, `ci:`, `style:`, `refactor:`, etc.
+  
+- **Scope (Optional)**: You can add extra information inside parentheses to explain where the change happened.  
+  Example: `feat(ui): Improve button design`
+  
+- **Message Body**: Add more details about the change in the body if needed.
+  - Leave one blank line between the subject and the body.
+  - Keep each line in the body under 72 characters.
+  
+---
+
+## Footer and Extra Information:
+- **Footer**: Include more information, such as who reviewed the code.  
+  Example: `Reviewed-by: Bob <bob@example.com>`
+
+- **Breaking Changes**: Use “BREAKING CHANGE” when the commit introduces a major change that could break something.  
+  Example: `build!: migrate to webpack 5`  
+  Or, explain in the footer:  
+  `BREAKING CHANGE: Drop support for webpack 4 configurations.`
+
+- **Multi-Paragraph Body**: For complex commits, you can use more than one paragraph to explain what, why, and how changes were made.
+
+---
