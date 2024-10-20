@@ -429,3 +429,11 @@ Pull requests allow team members to check each other’s code. This way, the res
 <br>
 
 <br>
+
+
+# 4. Best Practices for Naming Your Git Repository
+
+A well-named Git repository can improve your workflow and save you time. 
+
+
+Here are ten best practices to follow, along with examples:
