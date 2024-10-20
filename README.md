@@ -384,6 +384,8 @@ Following the **Conventional Commits** specification ensures a clear and consist
 
 In software development, everyone wants to write perfect code. But mistakes can happen, especially when a developer has looked at their code many times. Enabling pull requests (PRs) helps catch errors by ensuring that more than one person reviews the code before it goes into the main project.
 
+<br>
+
 ## Why Use Pull Requests?
 Pull requests allow team members to check each other’s code. This way, the responsibility for catching mistakes doesn’t fall only on the original developer. Having another person review the code helps make sure it meets quality standards.
 
@@ -402,3 +404,12 @@ Pull requests allow team members to check each other’s code. This way, the res
 
 4. **Review and Approval**  
    Another team member must review and approve the pull request before it can be merged. This step ensures quality and shares knowledge.
+
+<br>
+
+### Examples of Best Practices
+- **Bad Example**  
+   Relying on individual developers to write perfect code can lead to mistakes being missed.
+
+- **Good Example**  
+  Requiring pull requests for all code changes encourages teamwork and helps improve code quality.
