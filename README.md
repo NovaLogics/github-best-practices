@@ -1,5 +1,5 @@
 <h1 align="center" >  
-GitSafe: Best Practices for GitHub
+Best Practices for GitHub
 </h1>
 
 <br>
