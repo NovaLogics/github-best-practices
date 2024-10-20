@@ -75,18 +75,16 @@ Using prefixes for branches helps categorize them by their function, enhancing c
 These prefixes are frequently used in projects to categorize branches clearly:
 
 - **feature/**   
-  For new features or enhancements  [ `feature/` or `feat/` ]  
-  *examples:*   
-  - `feature/user-authentication`
+  For new features or enhancements  [ **feature/** or **feat/** ]  
+    *examples :* &nbsp;  `feature/user-authentication`
   - `feature/payment-integration`
   - `feature/blog-posts`
 
 <br>
 
 - **bugfix/**    
-  For fixing bugs    [ `bugfix/ `or `fix/` ]  
-  *examples:*   
-  - `bugfix/navbar-color-issue`
+  For fixing bugs    [ **bugfix/** or **fix/** ]  
+    *examples :* &nbsp;  `bugfix/navbar-color-issue`
   - `bugfix/cart-quantity-update`
   - `bugfix/login-error-message`
 
@@ -94,8 +92,7 @@ These prefixes are frequently used in projects to categorize branches clearly:
 
 - **hotfix/**    
   For urgent fixes, often in production    
-  *examples:*   
-  - `hotfix/fix-crash-on-launch`
+    *examples :* &nbsp;  `hotfix/fix-crash-on-launch`
   - `hotfix/urgent-payment-bug`
   - `hotfix/critical-login-bug`
 
@@ -103,8 +100,7 @@ These prefixes are frequently used in projects to categorize branches clearly:
 
 - **release/**    
   For preparing release versions     
-  *examples:*  
-  - `release/v1.0.0`
+    *examples :* &nbsp;  `release/v1.0.0`
   - `release/v2.3.1-beta`
   - `release/v3.0.0-final`
 
@@ -112,8 +108,7 @@ These prefixes are frequently used in projects to categorize branches clearly:
 
 - **chore/**   
   For small maintenance tasks, such as refactoring or updating dependencies     
-  *examples:*  
-  - `chore/update-dependencies`
+    *examples :* &nbsp;  `chore/update-dependencies`
   - `chore/cleanup-unused-code`
   - `chore/upgrade-npm-packages`
   - `chore/refactor-project-structure`
@@ -122,8 +117,7 @@ These prefixes are frequently used in projects to categorize branches clearly:
   
 - **test/**   
     For adding or updating tests     
-  *examples:*  
-  - `test/add-user-auth-tests`
+    *examples :* &nbsp;  `test/add-user-auth-tests`
   - `test/update-product-tests`
   - `test/improve-checkout-test-coverage`
   - `test/fix-login-page-tests`
@@ -132,8 +126,7 @@ These prefixes are frequently used in projects to categorize branches clearly:
   
 - **docs/**   
   For documentation updates     
-  *examples:*  
-  - `docs/update-api-docs`
+    *examples :* &nbsp;  `docs/update-api-docs`
   - `docs/improve-readme`
   - `docs/add-contributing-guidelines`
   - `docs/architecture-overview`
@@ -142,8 +135,7 @@ These prefixes are frequently used in projects to categorize branches clearly:
 
 - **refactor/**   
   For code refactoring without changing functionality     
-  *examples:*  
-  - `refactor/improve-code-structure`
+    *examples :* &nbsp;  `refactor/improve-code-structure`
   - `refactor/optimize-query-performance`
   - `refactor/cleanup-css-styles`
   - `refactor/remove-deprecated-methods`
@@ -152,8 +144,7 @@ These prefixes are frequently used in projects to categorize branches clearly:
 
 - **ci/**    
   For *Continuous Integration or Deployment* related changes    
-  *examples:* 
-  - `ci/add-docker-support`
+    *examples :* &nbsp;  `ci/add-docker-support`
   - `ci/improve-ci-pipeline`
   - `ci/fix-automated-tests`
   - `ci/update-github-actions`
@@ -162,8 +153,7 @@ These prefixes are frequently used in projects to categorize branches clearly:
 
 - **style/**     
   For code style changes    
-  *examples:* 
-  - `style/improve-css-indentation`
+  *examples :* &nbsp;  `style/improve-css-indentation`
   - `style/update-linter-rules`
   - `style/clean-up-html-structure`
   - `style/refactor-component-styles`
@@ -172,15 +162,13 @@ These prefixes are frequently used in projects to categorize branches clearly:
 
 - **perf/**     
   For performance improvements     
-  *examples:*  
-  - `perf/improve-load-time`
+    *example :* &nbsp;  `perf/improve-load-time`
   
 <br> 
 
 - **config/**    
     For configuration file changes     
-  *examples:*  
-  - `config/update-webpack`
+  *example :* &nbsp; `config/update-webpack`
 
 <br>
 
@@ -283,33 +271,33 @@ The scope provides additional context about which part of the code was modified.
   - `feat(ui): Improve button design`
   - `feat(api): Add new user endpoint`
 
-<br>
+
 
 ### Examples : Type + Scope + Description
 
-1. **feature** &nbsp; : &nbsp; `feat(ui): Add dark mode support`
+- **feature** &nbsp; : &nbsp; `feat(ui): Add dark mode support`
 
-2. **bugfix** &nbsp; &nbsp; : &nbsp;  `fix(user-profile): Resolve issue with profile image upload`
+- **bugfix** &nbsp; &nbsp; : &nbsp;  `fix(user-profile): Resolve issue with profile image upload`
 
-3. **hotfix** &nbsp; &nbsp; : &nbsp;  `hotfix(payment): Fix crash in payment gateway integration`
+- **hotfix** &nbsp; &nbsp; : &nbsp;  `hotfix(payment): Fix crash in payment gateway integration`
 
-4. **release** &nbsp; : &nbsp;  `release(v2.1.0): Prepare release notes for version 2.1.0`
+- **release** &nbsp; : &nbsp;  `release(v2.1.0): Prepare release notes for version 2.1.0`
 
-5. **chore** &nbsp; &nbsp; : &nbsp; &nbsp; `chore(deps): Update project dependencies to latest versions`
+- **chore** &nbsp; &nbsp; : &nbsp; &nbsp; `chore(deps): Update project dependencies to latest versions`
 
-6. **test** &nbsp; &nbsp; : &emsp; `test(api): Add unit tests for user authentication`
+- **test** &nbsp; &nbsp; : &emsp; `test(api): Add unit tests for user authentication`
 
-7. **docs** &nbsp; &nbsp; : &nbsp; &nbsp;  `docs(contributing): Clarify contribution guidelines`
+- **docs** &nbsp; &nbsp; : &nbsp; &nbsp;  `docs(contributing): Clarify contribution guidelines`
 
-8. **refactor** : &nbsp;  `refactor(nav): Simplify navigation logic and remove unused code`
+- **refactor** : &nbsp;  `refactor(nav): Simplify navigation logic and remove unused code`
 
-9.  **ci** &emsp; &emsp; : &emsp; `ci(actions): Update CI workflow for test coverage reporting`
+-  **ci** &emsp; &emsp; : &emsp; `ci(actions): Update CI workflow for test coverage reporting`
 
-10. **style** &nbsp; &nbsp; : &emsp; `style(button): Improve button alignment and spacing`
+- **style** &nbsp; &nbsp; : &emsp; `style(button): Improve button alignment and spacing`
 
-11. **perf** &nbsp; &nbsp; : &emsp; `perf(images): Optimize image loading for faster page rendering`
+- **perf** &nbsp; &nbsp; : &emsp; `perf(images): Optimize image loading for faster page rendering`
 
-12. **config** &nbsp; : &nbsp;   `config(linter): Add new ESLint rules for better code consistency`
+- **config** &nbsp; : &nbsp;   `config(linter): Add new ESLint rules for better code consistency`
 
 <br>
 
